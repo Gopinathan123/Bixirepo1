@@ -2,11 +2,10 @@ package mvnPracticePackage;
 
 import org.testng.annotations.Test;
 
-import com.banking.bixi.GenericUtils.BaseClass;
 
 import org.testng.Reporter;
 
-public class SampleTest extends BaseClass{
+public class SampleTest{
 	@Test(groups="Regresion")
 	public void sampletest1() {
 		Reporter.log("--Sample Test1--", true);

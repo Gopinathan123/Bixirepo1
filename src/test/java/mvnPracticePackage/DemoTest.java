@@ -3,9 +3,7 @@ package mvnPracticePackage;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.banking.bixi.GenericUtils.BaseClass;
-
-public class DemoTest extends BaseClass{
+public class DemoTest{
 	@Test (groups="Smoke")
 	public void demotest1() {
 		Reporter.log("--Demo Test1--", true);
