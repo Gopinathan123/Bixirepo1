@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T14:54:51 IST" name="Suite" finished-at="2023-12-01T14:56:55 IST" duration-ms="124191">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T14:54:51 IST" name="ChromeBrowser" finished-at="2023-12-01T14:55:21 IST" duration-ms="29897">
+      <class name="selGridPrac.PracGridExec1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:selGridPrac.PracGridExec1@3590fc5b]" started-at="2023-12-01T14:54:51 IST" name="openBrowser" finished-at="2023-12-01T14:55:20 IST" duration-ms="29379" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown 
+Host info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown 
+Host info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+at selGridPrac.BaseClass.openBrowser(BaseClass.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="amazonBrowser()[pri:0, instance:selGridPrac.PracGridExec1@3590fc5b]" started-at="2023-12-01T14:55:21 IST" name="amazonBrowser" finished-at="2023-12-01T14:55:21 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown 
+Host info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown 
+Host info: host: 'DESKTOP-1VN6NSF', ip: '192.168.246.162'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}]}]
+Capabilities {browserName: chrome, platformName: windows}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+at selGridPrac.BaseClass.openBrowser(BaseClass.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:selGridPrac.PracGridExec1@3590fc5b]" started-at="2023-12-01T14:55:21 IST" name="closeBrowser" finished-at="2023-12-01T14:55:21 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selGridPrac.PracGridExec1 -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2023-12-01T14:55:21 IST" name="FireFoxBrowser" finished-at="2023-12-01T14:56:55 IST" duration-ms="93884">
+      <class name="selGridPrac.PracGridExec2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:selGridPrac.PracGridExec2@385c9627]" started-at="2023-12-01T14:55:21 IST" name="openBrowser" finished-at="2023-12-01T14:56:11 IST" duration-ms="49619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="amazonBrowser()[pri:0, instance:selGridPrac.PracGridExec2@385c9627]" started-at="2023-12-01T14:56:11 IST" name="amazonBrowser" finished-at="2023-12-01T14:56:38 IST" duration-ms="27350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:selGridPrac.PracGridExec2@385c9627]" started-at="2023-12-01T14:56:38 IST" name="closeBrowser" finished-at="2023-12-01T14:56:55 IST" duration-ms="16883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selGridPrac.PracGridExec2 -->
+    </test> <!-- FireFoxBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
